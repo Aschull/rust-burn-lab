@@ -1,0 +1,8 @@
+[package]
+name = "burn-lab"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+burn = { version = "0.20", features = ["ndarray"] }
+burn-ndarray = "0.20"
